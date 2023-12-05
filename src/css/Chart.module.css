@@ -1,0 +1,77 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(3px);
+}
+.close {
+  display: inline-block;
+  margin-top: 0.8rem;
+  margin-left: 0.8rem;
+  padding: 1px 8px;
+  padding-bottom: 2px;
+  background-color: red;
+  color: #fff;
+  border-radius: 8px;
+}
+.Ns {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: left;
+  margin-left: 1rem;
+}
+.Ns img {
+  width: 25px;
+  height: 25px;
+}
+.Ns p {
+  color: #3874ff;
+}
+.contJart {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.jart {
+  width: 80%;
+  height: 33rem;
+  margin-top: -4rem;
+  border: 2px solid #3874ff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: left; */
+  align-items: center;
+  gap: 1rem;
+  background-color: #0a0228;
+}
+.graph {
+  width: 80%;
+  height: 24rem;
+}
+.tokme {
+  display: flex;
+  gap: 0.5rem;
+}
+.btt {
+  background-color: transparent;
+  border: 1.5px solid #3874ff;
+  color: #3874ff;
+  padding: 3px 6px;
+  border-radius: 0.5rem;
+}
+.selected {
+  background-color: #3874ff;
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 0.5rem;
+  border: 1.5px solid #fff;
+}

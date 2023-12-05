@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.highlight {
+    background-image: linear-gradient(to bottom, #3434db, #4d4d8a);
+  padding: 0px 8px;
+  border-radius: 5px;
+}
+.container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #3434db;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+}

@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.img {
+  width: 2rem;
+  height: auto;
+}
+.img_name {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.container table thead {
+  border-bottom: 2px solid #fff;
+  margin-bottom: 22.5rem;
+}
+.container table thead tr {
+  height: 3.2rem;
+}
+.container table thead tr th {
+  text-align: left;
+  font-size: 1.2rem;
+}
+.tr{
+    font-size: .8rem;
+    font-weight: 500;
+}
+.tr:nth-child(even) {
+  background-color: #0e0335;
+}
+.green {
+  color: rgb(30, 164, 30);
+}
+.red {
+  color: rgb(199, 50, 50);
+}

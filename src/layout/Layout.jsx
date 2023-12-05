@@ -10,8 +10,12 @@ function Layout({ children }) {
           Support React.js
         </p>
       </header>
+
       {children}
-      <footer>this is footer</footer>
+      <footer className={styles.footer}>
+        This site developed by :
+        <a href="https://www.instagram.com/mahdi_lhj/">Mahdi Khalili</a>
+      </footer>
     </div>
   );
 }

@@ -13,3 +13,5 @@ Currently, two official plugins are available:
   size={150}
   speedMultiplier={0.7}
 />
+
+item.current_price.toLocaleString()

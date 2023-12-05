@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.container input {
+  width: 10rem;
+  height: 1.5rem;
+}
+.container input:focus {
+  outline: none;
+}
+.container select:focus {
+  outline: none;
+}
+.container select {
+  width: 4rem;
+  height: 1.5rem;
+}
+.result {
+  width: 15rem;
+  height: 15.5em;
+  background-color: #0a0228;
+  position: absolute;
+  top: 2rem;
+  overflow-y: scroll;
+  border: 1.5px solid #f5f5f5;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+.li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.5rem;
+}
+.li:nth-child(even) {
+  background-color: #0e0335;
+}
+.li:nth-child(odd) {
+  background-color: #1e1051;
+}
